@@ -9,6 +9,11 @@ class Calculator extends React.Component {
   render() {
     return (
       <section>
+        <div className="displayInputs">
+          <p>
+            0
+          </p>
+        </div>
         <div className="calcDiv">
           <button type="button" className="btn" value="AC">AC</button>
           <button type="button" className="btn" value="+/-">+/-</button>
