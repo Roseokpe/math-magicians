@@ -6,9 +6,8 @@ class Calculator extends React.Component {
     render() {
         return (
             <section>
-                <p className="input">{(total || '') + (operation || '') + (next || '') || 0 }</p>
-                <div className="calcDiv">
-                    <button type="button" className="btn" value="AC">AC</button>
+                <div className= "calcDiv">
+                    <button type ="button" className="btn" value="AC">AC</button>
                     <button type="button" className="btn" value="+/-">+/-</button>
                     <button type="button" className="btn" value="%">%</button>
                     <button type="button" className="btn btnaction" value="÷">÷</button>
