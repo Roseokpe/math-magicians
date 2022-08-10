@@ -1,15 +1,24 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
-import Calculator from './components/calculator';
+import Home from './components/home';
+import NavBar from './components/navBar';
+import Quotes from './components/quote';
 
-class App extends React.Component {
-  render() {
-    return (
-      <div className="App">
-        <Calculator />
-      </div>
-    );
-  }
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+} from "react-router-dom";
+
+export default function App() {
+  return (
+    <Router>
+        <Routes>
+           <Route path="/about" element={<Quotes />} />
+           <Route path="/topics" element={<calculator />} />
+           <Route path="/" element={<Home />} />
+        </Routes>
+    </Router>
+  );
 }
-
-export default App;
