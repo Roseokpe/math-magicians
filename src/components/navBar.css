@@ -1,0 +1,27 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 5%;
+    padding-bottom: 3%;
+    margin: 3% 0;
+    border-bottom: 2px solid blue;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5%;
+
+}
+
+.nav-links a {
+    font-size: 25px;
+    padding: 1%;
+    text-decoration: none;
+    color: black;
+}
+  
+.nav-links a:hover {
+    cursor: pointer;
+    color: red;
+}
