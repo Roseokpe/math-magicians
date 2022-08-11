@@ -78,7 +78,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Nii Amanor Djoleto**
+👤 **Rose Okpe**
 
 - GitHub: [@roseokpe](https://github.com/roseokpe)
 - Twitter: [@roseokpe](https://twitter.com/roseokpe)
@@ -87,8 +87,6 @@ To get a local copy up and running follow these simple example steps.
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
