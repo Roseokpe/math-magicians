@@ -3,7 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Calculator from './components/calculator';
 import Quotes from './components/quote';
-import NavBar from './components/navbar';
+import NavBar from './components/navBar';
 import Home from './components/home';
 
 class App extends React.PureComponent {

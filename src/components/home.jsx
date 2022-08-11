@@ -7,8 +7,7 @@ export default function Home() {
       <div className="homepage">
         <h2>Welcome to our page!</h2>
         <br />
-        <br />
-        <p>
+        <p className='homepara'>
           {' '}
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -16,13 +15,11 @@ export default function Home() {
           commodo consequat.
         </p>
         <br />
-        <br />
-        <p>
+        <p className='homepara'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
           commodo consequat.
-
         </p>
       </div>
     </section>

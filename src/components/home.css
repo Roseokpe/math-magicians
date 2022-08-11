@@ -3,12 +3,20 @@
     padding: 0;
     margin: 0;
 }
-
-section {
-    background-color: rgb(224, 219, 219);
-}
-
-.homepage {
+  
+body {
+    font-family: 'Lato', sans-serif;
+    /* height: 50%; */
+    width: 100%;
+    background: #3e3c3c;
     color: white;
 }
 
+h2 {
+    color: aliceblue;
+}
+  
+.homepara {
+    padding: 24px;
+    font-size: 30px;
+}
