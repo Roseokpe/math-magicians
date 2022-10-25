@@ -12,7 +12,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[coming soon](https://livedemo.com)
 
 ## Getting Started
 
